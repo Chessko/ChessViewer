@@ -445,7 +445,7 @@ void Image::fillBoard(){
         for (int i = 0; i<board.fields.size(); i++){
             cv::imshow(std::to_string(board.fields[i].file), board.fields[i].imgCropped);
             cv::waitKey(0);
-            if (i % 8 == 0){
+            if (i+1 % 8 == 0){
                 cv::destroyAllWindows();
             }
         }
