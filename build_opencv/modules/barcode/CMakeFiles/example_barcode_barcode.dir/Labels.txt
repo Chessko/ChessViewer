@@ -1,0 +1,9 @@
+# Target labels
+ Extra
+ opencv_barcode
+ Sample
+# Source files and their labels
+/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv_contrib/modules/barcode/samples/barcode.cpp
+ Extra
+ opencv_barcode
+ Sample

@@ -1,0 +1,48 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv_contrib/modules/freetype/include/opencv2/freetype.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_freetype",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv_contrib/modules/freetype/src/freetype.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_freetype",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv_contrib/modules/freetype/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_freetype",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/cvconfig.h"
+		},
+		{
+			"file" : "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_freetype",
+			"Module"
+		],
+		"name" : "opencv_freetype"
+	}
+}

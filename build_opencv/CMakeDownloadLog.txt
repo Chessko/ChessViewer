@@ -1,0 +1,4209 @@
+#use_cache "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache"
+#do_unpack "ippicv_2020_mac_intel64_20191018_general.tgz" "1c3d675c2a2395d094d523024896e01b" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/a56b6ac6f030c312b2dce17430eef13aed9af274/ippicv/ippicv_2020_mac_intel64_20191018_general.tgz" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/3rdparty/ippicv"
+#cmake_download "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/ippicv/1c3d675c2a2395d094d523024896e01b-ippicv_2020_mac_intel64_20191018_general.tgz" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/a56b6ac6f030c312b2dce17430eef13aed9af274/ippicv/ippicv_2020_mac_intel64_20191018_general.tgz"
+#try 1
+#   Trying 185.199.109.133:443...
+# Connected to raw.githubusercontent.com (185.199.109.133) port 443 (#0)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# Using HTTP2, server supports multi-use
+# Connection state changed (HTTP/2 confirmed)
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# Using Stream ID: 1 (easy handle 0x7ff585835000)
+# GET /opencv/opencv_3rdparty/a56b6ac6f030c312b2dce17430eef13aed9af274/ippicv/ippicv_2020_mac_intel64_20191018_general.tgz HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.77.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: application/octet-stream
+# etag: "39f23df1daedac90167b6f526cf737e776449528c3b4a175b1c71d327ff50c8c"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: DD04:ECC7:1330271:14E82BA:6109708D
+# accept-ranges: bytes
+# date: Tue, 03 Aug 2021 16:36:30 GMT
+# via: 1.1 varnish
+# x-served-by: cache-fra19157-FRA
+# x-cache: MISS
+# x-cache-hits: 0
+# x-timer: S1628008590.684515,VS0,VE1289
+# vary: Authorization,Accept-Encoding
+# access-control-allow-origin: *
+# x-fastly-request-id: 13179e404d1afa34a02d8da3170236b924038de3
+# expires: Tue, 03 Aug 2021 16:41:30 GMT
+# source-age: 1
+# content-length: 32971466
+# 
+# [853 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1220 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [8158 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [135 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [153 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [135 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [135 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [108 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [108 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [81 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [72 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [81 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [135 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [108 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [153 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [135 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [144 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [135 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [144 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [135 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [135 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [63 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [108 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [135 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [135 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [108 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [117 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [126 bytes data]
+# [15508 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/ippicv/1c3d675c2a2395d094d523024896e01b-ippicv_2020_mac_intel64_20191018_general.tgz"
+#mkdir "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/3rdparty/ippicv"
+#unpack "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/3rdparty/ippicv" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/ippicv/1c3d675c2a2395d094d523024896e01b-ippicv_2020_mac_intel64_20191018_general.tgz"
+#do_unpack "v0.1.1f.zip" "b624b995ec9c439cbc2e9e6ee940d3a2" "https://github.com/opencv/ade/archive/v0.1.1f.zip" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/3rdparty/ade"
+#cmake_download "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/ade/b624b995ec9c439cbc2e9e6ee940d3a2-v0.1.1f.zip" "https://github.com/opencv/ade/archive/v0.1.1f.zip"
+#try 1
+#   Trying 140.82.121.4:443...
+# Connected to github.com (140.82.121.4) port 443 (#0)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+# Server certificate: github.com
+# Server certificate: DigiCert High Assurance TLS Hybrid ECC SHA256 2020 CA1
+# Server certificate: DigiCert High Assurance EV Root CA
+# Using HTTP2, server supports multi-use
+# Connection state changed (HTTP/2 confirmed)
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# Using Stream ID: 1 (easy handle 0x7ff58581b000)
+# GET /opencv/ade/archive/v0.1.1f.zip HTTP/2
+# Host: github.com
+# user-agent: curl/7.77.0
+# accept: */*
+# 
+# HTTP/2 302 
+# server: GitHub.com
+# date: Tue, 03 Aug 2021 16:35:46 GMT
+# content-type: text/html; charset=utf-8
+# vary: X-PJAX, Accept-Encoding, Accept, X-Requested-With
+# permissions-policy: interest-cohort=()
+# location: https://codeload.github.com/opencv/ade/zip/v0.1.1f
+# cache-control: max-age=0, private
+# strict-transport-security: max-age=31536000; includeSubdomains; preload
+# x-frame-options: deny
+# x-content-type-options: nosniff
+# x-xss-protection: 0
+# referrer-policy: no-referrer-when-downgrade
+# expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+# content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com wss://alive.github.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations insights.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com render-temp.githubusercontent.com viewscreen.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-3f088aa2.js gist.github.com/socket-worker-3f088aa2.js
+# content-length: 116
+# x-github-request-id: 8C6E:8289:8D52FBE:919F97E:6109709F
+# 
+# Ignoring the response-body
+# [116 bytes data]
+# Connection #0 to host github.com left intact
+# Issue another request to this URL: 'https://codeload.github.com/opencv/ade/zip/v0.1.1f'
+#   Trying 140.82.121.9:443...
+# Connected to codeload.github.com (140.82.121.9) port 443 (#1)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+# Server certificate: *.github.com
+# Server certificate: DigiCert High Assurance TLS Hybrid ECC SHA256 2020 CA1
+# Server certificate: DigiCert High Assurance EV Root CA
+# Using HTTP2, server supports multi-use
+# Connection state changed (HTTP/2 confirmed)
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# Using Stream ID: 1 (easy handle 0x7ff58581b000)
+# GET /opencv/ade/zip/v0.1.1f HTTP/2
+# Host: codeload.github.com
+# user-agent: curl/7.77.0
+# accept: */*
+# 
+# HTTP/2 200 
+# access-control-allow-origin: https://render.githubusercontent.com
+# content-disposition: attachment; filename=ade-0.1.1f.zip
+# content-length: 166594
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: application/zip
+# etag: "d6c62c0c3b4dc6059be5fd41ab24d5e0b5d7968e0563d1c2f0e56f27d0f4a57f"
+# strict-transport-security: max-age=31536000
+# vary: Authorization,Accept-Encoding
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# date: Tue, 03 Aug 2021 16:36:47 GMT
+# x-github-request-id: 8C67:F820:2040DC:2FD907:6109709F
+# 
+# [883 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1240 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1323 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1323 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [121 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1191 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [9 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1361 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1361 bytes data]
+# [1190 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1361 bytes data]
+# [1361 bytes data]
+# [1361 bytes data]
+# [1370 bytes data]
+# [1361 bytes data]
+# [610 bytes data]
+# Connection #1 to host codeload.github.com left intact
+# 
+
+#check_md5 "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/ade/b624b995ec9c439cbc2e9e6ee940d3a2-v0.1.1f.zip"
+#mkdir "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/3rdparty/ade"
+#unpack "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/3rdparty/ade" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/ade/b624b995ec9c439cbc2e9e6ee940d3a2-v0.1.1f.zip"
+#do_copy "detect.caffemodel" "238e2b2d6f3c18d6c3a30de0c31e23cf" "https://raw.githubusercontent.com/WeChatCV/opencv_3rdparty/a8b69ccc738421293254aec5ddb38bd523503252/detect.caffemodel" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/wechat_qrcode"
+#missing "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/wechat_qrcode/detect.caffemodel"
+#cmake_download "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/wechat_qrcode/238e2b2d6f3c18d6c3a30de0c31e23cf-detect.caffemodel" "https://raw.githubusercontent.com/WeChatCV/opencv_3rdparty/a8b69ccc738421293254aec5ddb38bd523503252/detect.caffemodel"
+#try 1
+#   Trying 185.199.109.133:443...
+# Connected to raw.githubusercontent.com (185.199.109.133) port 443 (#0)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# Using HTTP2, server supports multi-use
+# Connection state changed (HTTP/2 confirmed)
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# Using Stream ID: 1 (easy handle 0x7ff586917c00)
+# GET /WeChatCV/opencv_3rdparty/a8b69ccc738421293254aec5ddb38bd523503252/detect.caffemodel HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.77.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: application/octet-stream
+# etag: "f0806e172250a9d17d06b605e17faf6897ec23c3e8c61d7db10dbfef137c435c"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: E322:1EA6:A227E9:F1E78B:610970A6
+# accept-ranges: bytes
+# date: Tue, 03 Aug 2021 16:36:55 GMT
+# via: 1.1 varnish
+# x-served-by: cache-fra19172-FRA
+# x-cache: MISS
+# x-cache-hits: 0
+# x-timer: S1628008615.908654,VS0,VE771
+# vary: Authorization,Accept-Encoding
+# access-control-allow-origin: *
+# x-fastly-request-id: b14c78b4e35e712ae6869f8220ffadb25645399c
+# expires: Tue, 03 Aug 2021 16:41:55 GMT
+# source-age: 1
+# content-length: 965430
+# 
+# [855 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [16103 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [9843 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [6389 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16330 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/wechat_qrcode/238e2b2d6f3c18d6c3a30de0c31e23cf-detect.caffemodel"
+#copy "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/wechat_qrcode/detect.caffemodel" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/wechat_qrcode/238e2b2d6f3c18d6c3a30de0c31e23cf-detect.caffemodel"
+#do_copy "detect.prototxt" "6fb4976b32695f9f5c6305c19f12537d" "https://raw.githubusercontent.com/WeChatCV/opencv_3rdparty/a8b69ccc738421293254aec5ddb38bd523503252/detect.prototxt" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/wechat_qrcode"
+#missing "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/wechat_qrcode/detect.prototxt"
+#cmake_download "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/wechat_qrcode/6fb4976b32695f9f5c6305c19f12537d-detect.prototxt" "https://raw.githubusercontent.com/WeChatCV/opencv_3rdparty/a8b69ccc738421293254aec5ddb38bd523503252/detect.prototxt"
+#try 1
+#   Trying 185.199.109.133:443...
+# Connected to raw.githubusercontent.com (185.199.109.133) port 443 (#0)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# Using HTTP2, server supports multi-use
+# Connection state changed (HTTP/2 confirmed)
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# Using Stream ID: 1 (easy handle 0x7ff5858a1200)
+# GET /WeChatCV/opencv_3rdparty/a8b69ccc738421293254aec5ddb38bd523503252/detect.prototxt HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.77.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "786db7f27d00b1b38f03aad9fb6889870aed59bed48093133b19f639931444ad"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: CEC6:BE46:50344:6583B:61090A83
+# accept-ranges: bytes
+# date: Tue, 03 Aug 2021 16:36:56 GMT
+# via: 1.1 varnish
+# x-served-by: cache-fra19127-FRA
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1628008616.940295,VS0,VE173
+# vary: Authorization,Accept-Encoding
+# access-control-allow-origin: *
+# x-fastly-request-id: 83562629b4d4ef9b841aa826f76fa0d7ae8902f6
+# expires: Tue, 03 Aug 2021 16:41:56 GMT
+# source-age: 0
+# content-length: 42656
+# 
+# [856 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [688 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/wechat_qrcode/6fb4976b32695f9f5c6305c19f12537d-detect.prototxt"
+#copy "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/wechat_qrcode/detect.prototxt" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/wechat_qrcode/6fb4976b32695f9f5c6305c19f12537d-detect.prototxt"
+#do_copy "sr.caffemodel" "cbfcd60361a73beb8c583eea7e8e6664" "https://raw.githubusercontent.com/WeChatCV/opencv_3rdparty/a8b69ccc738421293254aec5ddb38bd523503252/sr.caffemodel" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/wechat_qrcode"
+#missing "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/wechat_qrcode/sr.caffemodel"
+#cmake_download "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/wechat_qrcode/cbfcd60361a73beb8c583eea7e8e6664-sr.caffemodel" "https://raw.githubusercontent.com/WeChatCV/opencv_3rdparty/a8b69ccc738421293254aec5ddb38bd523503252/sr.caffemodel"
+#try 1
+#   Trying 185.199.109.133:443...
+# Connected to raw.githubusercontent.com (185.199.109.133) port 443 (#0)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# Using HTTP2, server supports multi-use
+# Connection state changed (HTTP/2 confirmed)
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# Using Stream ID: 1 (easy handle 0x7ff585169200)
+# GET /WeChatCV/opencv_3rdparty/a8b69ccc738421293254aec5ddb38bd523503252/sr.caffemodel HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.77.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: application/octet-stream
+# etag: "c85ba72b31f07ae61f1a207fd2ea347063ded4b717ff6dc3cb47b17dc23b2966"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: 8392:FC7B:1D56D76:1EEE0BF:610916BC
+# accept-ranges: bytes
+# date: Tue, 03 Aug 2021 16:36:56 GMT
+# via: 1.1 varnish
+# x-served-by: cache-fra19172-FRA
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1628008616.212726,VS0,VE174
+# vary: Authorization,Accept-Encoding
+# access-control-allow-origin: *
+# x-fastly-request-id: 73d9931093e052bcc208c7da27c5b4031e161b54
+# expires: Tue, 03 Aug 2021 16:41:56 GMT
+# source-age: 0
+# content-length: 23929
+# 
+# [857 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1145 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/wechat_qrcode/cbfcd60361a73beb8c583eea7e8e6664-sr.caffemodel"
+#copy "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/wechat_qrcode/sr.caffemodel" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/wechat_qrcode/cbfcd60361a73beb8c583eea7e8e6664-sr.caffemodel"
+#do_copy "sr.prototxt" "69db99927a70df953b471daaba03fbef" "https://raw.githubusercontent.com/WeChatCV/opencv_3rdparty/a8b69ccc738421293254aec5ddb38bd523503252/sr.prototxt" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/wechat_qrcode"
+#missing "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/wechat_qrcode/sr.prototxt"
+#cmake_download "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/wechat_qrcode/69db99927a70df953b471daaba03fbef-sr.prototxt" "https://raw.githubusercontent.com/WeChatCV/opencv_3rdparty/a8b69ccc738421293254aec5ddb38bd523503252/sr.prototxt"
+#try 1
+#   Trying 185.199.109.133:443...
+# Connected to raw.githubusercontent.com (185.199.109.133) port 443 (#0)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# Using HTTP2, server supports multi-use
+# Connection state changed (HTTP/2 confirmed)
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# Using Stream ID: 1 (easy handle 0x7ff585169200)
+# GET /WeChatCV/opencv_3rdparty/a8b69ccc738421293254aec5ddb38bd523503252/sr.prototxt HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.77.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "c9e68fb6f26d02ce6efd596b98bd56a3fdb21bf0b0b57b25e4ad522dac2e2528"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: 855A:6149:1181C5A:16F5B7D:610970A8
+# accept-ranges: bytes
+# date: Tue, 03 Aug 2021 16:36:56 GMT
+# via: 1.1 varnish
+# x-served-by: cache-fra19163-FRA
+# x-cache: MISS
+# x-cache-hits: 0
+# x-timer: S1628008616.477262,VS0,VE170
+# vary: Authorization,Accept-Encoding
+# access-control-allow-origin: *
+# x-fastly-request-id: 557973c2e6491ea518804fc5f18e2b5a4ee01446
+# expires: Tue, 03 Aug 2021 16:41:56 GMT
+# source-age: 0
+# content-length: 5984
+# 
+# [856 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1015 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/wechat_qrcode/69db99927a70df953b471daaba03fbef-sr.prototxt"
+#copy "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/wechat_qrcode/sr.prototxt" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/wechat_qrcode/69db99927a70df953b471daaba03fbef-sr.prototxt"
+#do_copy "boostdesc_bgm.i" "0ea90e7a8f3f7876d450e4149c97c74f" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d"
+#missing "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/boostdesc_bgm.i"
+#cmake_download "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/0ea90e7a8f3f7876d450e4149c97c74f-boostdesc_bgm.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm.i"
+#try 1
+#   Trying 185.199.109.133:443...
+# Connected to raw.githubusercontent.com (185.199.109.133) port 443 (#0)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# Using HTTP2, server supports multi-use
+# Connection state changed (HTTP/2 confirmed)
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# Using Stream ID: 1 (easy handle 0x7ff586920c00)
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.77.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "f4d39876234931f4cd9f46e84414d4b9c69717d391e989a93bb66948fb6c2512"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: 35C8:1005B:197A413:1AE735B:6108D510
+# accept-ranges: bytes
+# date: Tue, 03 Aug 2021 16:36:57 GMT
+# via: 1.1 varnish
+# x-served-by: cache-fra19172-FRA
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1628008617.412655,VS0,VE1
+# vary: Authorization,Accept-Encoding
+# access-control-allow-origin: *
+# x-fastly-request-id: 59ddfe5d5e4bcd738201ae5113a86f48a30be0b8
+# expires: Tue, 03 Aug 2021 16:41:57 GMT
+# source-age: 165
+# content-length: 14852
+# 
+# [852 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [290 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/0ea90e7a8f3f7876d450e4149c97c74f-boostdesc_bgm.i"
+#copy "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/boostdesc_bgm.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/0ea90e7a8f3f7876d450e4149c97c74f-boostdesc_bgm.i"
+#do_copy "boostdesc_bgm_bi.i" "232c966b13651bd0e46a1497b0852191" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_bi.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d"
+#missing "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/boostdesc_bgm_bi.i"
+#cmake_download "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/232c966b13651bd0e46a1497b0852191-boostdesc_bgm_bi.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_bi.i"
+#try 1
+#   Trying 185.199.109.133:443...
+# Connected to raw.githubusercontent.com (185.199.109.133) port 443 (#0)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# Using HTTP2, server supports multi-use
+# Connection state changed (HTTP/2 confirmed)
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# Using Stream ID: 1 (easy handle 0x7ff587136400)
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_bi.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.77.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "63c9f081e31c588e64e041aa89dc8f400709d026f201608ac8e7266545cc7baa"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: 9A02:A9ED:151280C:1632F2D:6108D728
+# accept-ranges: bytes
+# date: Tue, 03 Aug 2021 16:36:57 GMT
+# via: 1.1 varnish
+# x-served-by: cache-fra19180-FRA
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1628008617.498750,VS0,VE1
+# vary: Authorization,Accept-Encoding
+# access-control-allow-origin: *
+# x-fastly-request-id: 782afc5593e4db3ca1e748990a492a15dc722923
+# expires: Tue, 03 Aug 2021 16:41:57 GMT
+# source-age: 164
+# content-length: 14864
+# 
+# [856 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [298 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/232c966b13651bd0e46a1497b0852191-boostdesc_bgm_bi.i"
+#copy "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/boostdesc_bgm_bi.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/232c966b13651bd0e46a1497b0852191-boostdesc_bgm_bi.i"
+#do_copy "boostdesc_bgm_hd.i" "324426a24fa56ad9c5b8e3e0b3e5303e" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_hd.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d"
+#missing "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/boostdesc_bgm_hd.i"
+#cmake_download "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/324426a24fa56ad9c5b8e3e0b3e5303e-boostdesc_bgm_hd.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_hd.i"
+#try 1
+#   Trying 185.199.109.133:443...
+# Connected to raw.githubusercontent.com (185.199.109.133) port 443 (#0)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# Using HTTP2, server supports multi-use
+# Connection state changed (HTTP/2 confirmed)
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# Using Stream ID: 1 (easy handle 0x7ff5878c4c00)
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_hd.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.77.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "3f65138873460a77b397eba6720e2a19ac426dd8bc715e1eb0b718904ee672cd"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: 7B94:DAFC:5107B0:62A262:6108DCFE
+# accept-ranges: bytes
+# date: Tue, 03 Aug 2021 16:36:57 GMT
+# via: 1.1 varnish
+# x-served-by: cache-fra19137-FRA
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1628008618.590080,VS0,VE1
+# vary: Authorization,Accept-Encoding
+# access-control-allow-origin: *
+# x-fastly-request-id: 2b1c2d31cb2645270c327f07b02a9a5c618c56cd
+# expires: Tue, 03 Aug 2021 16:41:57 GMT
+# source-age: 163
+# content-length: 7832
+# 
+# [857 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [120 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/324426a24fa56ad9c5b8e3e0b3e5303e-boostdesc_bgm_hd.i"
+#copy "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/boostdesc_bgm_hd.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/324426a24fa56ad9c5b8e3e0b3e5303e-boostdesc_bgm_hd.i"
+#do_copy "boostdesc_binboost_064.i" "202e1b3e9fec871b04da31f7f016679f" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_064.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d"
+#missing "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/boostdesc_binboost_064.i"
+#cmake_download "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/202e1b3e9fec871b04da31f7f016679f-boostdesc_binboost_064.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_064.i"
+#try 1
+#   Trying 185.199.109.133:443...
+# Connected to raw.githubusercontent.com (185.199.109.133) port 443 (#0)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# Using HTTP2, server supports multi-use
+# Connection state changed (HTTP/2 confirmed)
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# Using Stream ID: 1 (easy handle 0x7ff585198200)
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_064.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.77.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "bae205040ca21f82923433b5f0f55997208065bde7c22407eaad6b80d7c54a63"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: 9DD0:8686:1D66849:1EF08ED:6109690F
+# accept-ranges: bytes
+# date: Tue, 03 Aug 2021 16:36:57 GMT
+# via: 1.1 varnish
+# x-served-by: cache-fra19180-FRA
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1628008618.674520,VS0,VE1
+# vary: Authorization,Accept-Encoding
+# access-control-allow-origin: *
+# x-fastly-request-id: bcb7d7e31b74603d55f1b2be66d8299bac0fd48f
+# expires: Tue, 03 Aug 2021 16:41:57 GMT
+# source-age: 163
+# content-length: 138093
+# 
+# [852 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [16103 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [7603 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/202e1b3e9fec871b04da31f7f016679f-boostdesc_binboost_064.i"
+#copy "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/boostdesc_binboost_064.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/202e1b3e9fec871b04da31f7f016679f-boostdesc_binboost_064.i"
+#do_copy "boostdesc_binboost_128.i" "98ea99d399965c03d555cef3ea502a0b" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_128.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d"
+#missing "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/boostdesc_binboost_128.i"
+#cmake_download "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/98ea99d399965c03d555cef3ea502a0b-boostdesc_binboost_128.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_128.i"
+#try 1
+#   Trying 185.199.109.133:443...
+# Connected to raw.githubusercontent.com (185.199.109.133) port 443 (#0)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# Using HTTP2, server supports multi-use
+# Connection state changed (HTTP/2 confirmed)
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# Using Stream ID: 1 (easy handle 0x7ff590131a00)
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_128.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.77.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "54f58724d17670b7702ef9695e137286b17516af293a9761ea422d0d63ef750c"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: B7D6:A544:C2EDFE:D4E613:6109690F
+# accept-ranges: bytes
+# date: Tue, 03 Aug 2021 16:36:57 GMT
+# via: 1.1 varnish
+# x-served-by: cache-fra19137-FRA
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1628008618.942611,VS0,VE1
+# vary: Authorization,Accept-Encoding
+# access-control-allow-origin: *
+# x-fastly-request-id: f87cb37493ab60ed6f29b21b491d14c55ffc8e26
+# expires: Tue, 03 Aug 2021 16:41:57 GMT
+# source-age: 162
+# content-length: 275322
+# 
+# [402 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [910 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [910 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [910 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [910 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [910 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [910 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [14729 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/98ea99d399965c03d555cef3ea502a0b-boostdesc_binboost_128.i"
+#copy "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/boostdesc_binboost_128.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/98ea99d399965c03d555cef3ea502a0b-boostdesc_binboost_128.i"
+#do_copy "boostdesc_binboost_256.i" "e6dcfa9f647779eb1ce446a8d759b6ea" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_256.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d"
+#missing "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/boostdesc_binboost_256.i"
+#cmake_download "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/e6dcfa9f647779eb1ce446a8d759b6ea-boostdesc_binboost_256.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_256.i"
+#try 1
+#   Trying 185.199.109.133:443...
+# Connected to raw.githubusercontent.com (185.199.109.133) port 443 (#0)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# Using HTTP2, server supports multi-use
+# Connection state changed (HTTP/2 confirmed)
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# Using Stream ID: 1 (easy handle 0x7ff590131a00)
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_256.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.77.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "5170441d0b803cfdb9971e7164637d566ed19f3e692c9d40ecc41bfad6b9cc56"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: 3BDE:8686:1D6685F:1EF0907:6109690F
+# accept-ranges: bytes
+# date: Tue, 03 Aug 2021 16:36:58 GMT
+# via: 1.1 varnish
+# x-served-by: cache-fra19180-FRA
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1628008618.146516,VS0,VE1
+# vary: Authorization,Accept-Encoding
+# access-control-allow-origin: *
+# x-fastly-request-id: f8b6652172d70c8362099028b132321c344e8d87
+# expires: Tue, 03 Aug 2021 16:41:58 GMT
+# source-age: 161
+# content-length: 549754
+# 
+# [853 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [16103 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [9888 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/e6dcfa9f647779eb1ce446a8d759b6ea-boostdesc_binboost_256.i"
+#copy "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/boostdesc_binboost_256.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/e6dcfa9f647779eb1ce446a8d759b6ea-boostdesc_binboost_256.i"
+#do_copy "boostdesc_lbgm.i" "0ae0675534aa318d9668f2a179c2a052" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_lbgm.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d"
+#missing "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/boostdesc_lbgm.i"
+#cmake_download "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/0ae0675534aa318d9668f2a179c2a052-boostdesc_lbgm.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_lbgm.i"
+#try 1
+#   Trying 185.199.109.133:443...
+# Connected to raw.githubusercontent.com (185.199.109.133) port 443 (#0)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# Using HTTP2, server supports multi-use
+# Connection state changed (HTTP/2 confirmed)
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# Using Stream ID: 1 (easy handle 0x7ff590131a00)
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_lbgm.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.77.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "f3d4a74705b7df4677383f120dc191d41412bcc2a9d68182483d1fcaa8c6f3ee"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: D006:FC7B:1F7D2A3:21277F2:61096910
+# accept-ranges: bytes
+# date: Tue, 03 Aug 2021 16:36:58 GMT
+# via: 1.1 varnish
+# x-served-by: cache-fra19137-FRA
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1628008618.316963,VS0,VE1
+# vary: Authorization,Accept-Encoding
+# access-control-allow-origin: *
+# x-fastly-request-id: e663a52023631fd92f688a57d05ef9f43878854a
+# expires: Tue, 03 Aug 2021 16:41:58 GMT
+# source-age: 159
+# content-length: 426280
+# 
+# [853 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [16103 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [9843 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [7571 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/0ae0675534aa318d9668f2a179c2a052-boostdesc_lbgm.i"
+#copy "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/boostdesc_lbgm.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/boostdesc/0ae0675534aa318d9668f2a179c2a052-boostdesc_lbgm.i"
+#do_copy "vgg_generated_48.i" "e8d0dcd54d1bcfdc29203d011a797179" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_48.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d"
+#missing "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/vgg_generated_48.i"
+#cmake_download "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/vgg/e8d0dcd54d1bcfdc29203d011a797179-vgg_generated_48.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_48.i"
+#try 1
+#   Trying 185.199.109.133:443...
+# Connected to raw.githubusercontent.com (185.199.109.133) port 443 (#0)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# Using HTTP2, server supports multi-use
+# Connection state changed (HTTP/2 confirmed)
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# Using Stream ID: 1 (easy handle 0x7ff587136400)
+# GET /opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_48.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.77.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "9712a2b00f558a6635e1c65f92e7b796fa4ac9e7824a0e4e38081647489047d8"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: 6410:DAFE:1B24315:1CA3F40:61096910
+# accept-ranges: bytes
+# date: Tue, 03 Aug 2021 16:36:58 GMT
+# via: 1.1 varnish
+# x-served-by: cache-fra19130-FRA
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1628008619.621289,VS0,VE1
+# vary: Authorization,Accept-Encoding
+# access-control-allow-origin: *
+# x-fastly-request-id: df84a92430a8f8856ae67e6988e6cf623d3fb0bc
+# expires: Tue, 03 Aug 2021 16:41:58 GMT
+# source-age: 159
+# content-length: 773330
+# 
+# [401 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [910 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [910 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [910 bytes data]
+# [919 bytes data]
+# [910 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [910 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [910 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [910 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [910 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [919 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [13311 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [1762 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/vgg/e8d0dcd54d1bcfdc29203d011a797179-vgg_generated_48.i"
+#copy "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/vgg_generated_48.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/vgg/e8d0dcd54d1bcfdc29203d011a797179-vgg_generated_48.i"
+#do_copy "vgg_generated_64.i" "7126a5d9a8884ebca5aea5d63d677225" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_64.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d"
+#missing "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/vgg_generated_64.i"
+#cmake_download "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/vgg/7126a5d9a8884ebca5aea5d63d677225-vgg_generated_64.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_64.i"
+#try 1
+#   Trying 185.199.109.133:443...
+# Connected to raw.githubusercontent.com (185.199.109.133) port 443 (#0)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# Using HTTP2, server supports multi-use
+# Connection state changed (HTTP/2 confirmed)
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# Using Stream ID: 1 (easy handle 0x7ff586920c00)
+# GET /opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_64.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.77.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "6080244e3d6fdff679f450da04af4a0d32d5bdaf3bc30d3ca432ed7e99d0caf5"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: 0CEC:A9EB:355E97:44F7F3:61096910
+# accept-ranges: bytes
+# date: Tue, 03 Aug 2021 16:36:58 GMT
+# via: 1.1 varnish
+# x-served-by: cache-fra19172-FRA
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1628008619.852803,VS0,VE2
+# vary: Authorization,Accept-Encoding
+# access-control-allow-origin: *
+# x-fastly-request-id: 420cb8eb023c19d4cc7790ff74750c87b93c6713
+# expires: Tue, 03 Aug 2021 16:41:58 GMT
+# source-age: 158
+# content-length: 915012
+# 
+# [854 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [16103 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [13835 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [1060 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/vgg/7126a5d9a8884ebca5aea5d63d677225-vgg_generated_64.i"
+#copy "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/vgg_generated_64.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/vgg/7126a5d9a8884ebca5aea5d63d677225-vgg_generated_64.i"
+#do_copy "vgg_generated_80.i" "7cd47228edec52b6d82f46511af325c5" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_80.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d"
+#missing "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/vgg_generated_80.i"
+#cmake_download "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/vgg/7cd47228edec52b6d82f46511af325c5-vgg_generated_80.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_80.i"
+#try 1
+#   Trying 185.199.109.133:443...
+# Connected to raw.githubusercontent.com (185.199.109.133) port 443 (#0)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# Using HTTP2, server supports multi-use
+# Connection state changed (HTTP/2 confirmed)
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# Using Stream ID: 1 (easy handle 0x7ff585198200)
+# GET /opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_80.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.77.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "41b934aa1655bb7609e81243de0568fac0682d633a52dd881ef7ccd5a80fc425"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: 7D42:FC79:629986:77EA4E:61096910
+# accept-ranges: bytes
+# date: Tue, 03 Aug 2021 16:36:59 GMT
+# via: 1.1 varnish
+# x-served-by: cache-fra19127-FRA
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1628008619.030711,VS0,VE2
+# vary: Authorization,Accept-Encoding
+# access-control-allow-origin: *
+# x-fastly-request-id: 17edb3fe7153cd5c98cd348b80e0728b5af3b538
+# expires: Tue, 03 Aug 2021 16:41:59 GMT
+# source-age: 158
+# content-length: 1012932
+# 
+# [853 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [16103 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16233 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [6389 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [13977 bytes data]
+# [16375 bytes data]
+# [10717 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/vgg/7cd47228edec52b6d82f46511af325c5-vgg_generated_80.i"
+#copy "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/vgg_generated_80.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/vgg/7cd47228edec52b6d82f46511af325c5-vgg_generated_80.i"
+#do_copy "vgg_generated_120.i" "151805e03568c9f490a5e3a872777b75" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_120.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d"
+#missing "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/vgg_generated_120.i"
+#cmake_download "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/vgg/151805e03568c9f490a5e3a872777b75-vgg_generated_120.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_120.i"
+#try 1
+#   Trying 185.199.109.133:443...
+# Connected to raw.githubusercontent.com (185.199.109.133) port 443 (#0)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: www.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# Using HTTP2, server supports multi-use
+# Connection state changed (HTTP/2 confirmed)
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# Using Stream ID: 1 (easy handle 0x7ff587136400)
+# GET /opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_120.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.77.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "0497dfb95e9b1f2612c03e3862e51b0b10de8cd899a78d2dc72d6103dae12799"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: 9C54:5C76:184CD08:199C711:61096910
+# accept-ranges: bytes
+# date: Tue, 03 Aug 2021 16:36:59 GMT
+# via: 1.1 varnish
+# x-served-by: cache-fra19137-FRA
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1628008619.224791,VS0,VE2
+# vary: Authorization,Accept-Encoding
+# access-control-allow-origin: *
+# x-fastly-request-id: 1177b9de2ef2f757b3f6e0af380ad92c9a8c327d
+# expires: Tue, 03 Aug 2021 16:41:59 GMT
+# source-age: 157
+# content-length: 1257733
+# 
+# [853 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1362 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [1371 bytes data]
+# [16103 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [235 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [16375 bytes data]
+# [13507 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/vgg/151805e03568c9f490a5e3a872777b75-vgg_generated_120.i"
+#copy "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/downloads/xfeatures2d/vgg_generated_120.i" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/xfeatures2d/vgg/151805e03568c9f490a5e3a872777b75-vgg_generated_120.i"
+#do_copy "face_landmark_model.dat" "7505c44ca4eb54b4ab1e4777cb96ac05" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/8afa57abc8229d611c4937165d20e2a2d9fc5a12/face_landmark_model.dat" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/share/opencv4/testdata/cv/face/"
+#missing "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/share/opencv4/testdata/cv/face//face_landmark_model.dat"
+#cmake_download "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/data/7505c44ca4eb54b4ab1e4777cb96ac05-face_landmark_model.dat" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/8afa57abc8229d611c4937165d20e2a2d9fc5a12/face_landmark_model.dat"
+#try 1
+#check_md5 "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/data/7505c44ca4eb54b4ab1e4777cb96ac05-face_landmark_model.dat"
+#copy "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/build_opencv/share/opencv4/testdata/cv/face//face_landmark_model.dat" "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv/.cache/data/7505c44ca4eb54b4ab1e4777cb96ac05-face_landmark_model.dat"

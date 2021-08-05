@@ -1,0 +1,9 @@
+# Target labels
+ Extra
+ opencv_plot
+ Sample
+# Source files and their labels
+/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv_contrib/modules/plot/samples/plot_demo.cpp
+ Extra
+ opencv_plot
+ Sample

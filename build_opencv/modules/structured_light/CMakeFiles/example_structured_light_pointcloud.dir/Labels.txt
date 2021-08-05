@@ -1,0 +1,9 @@
+# Target labels
+ Extra
+ opencv_structured_light
+ Sample
+# Source files and their labels
+/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/opencv_contrib/modules/structured_light/samples/pointcloud.cpp
+ Extra
+ opencv_structured_light
+ Sample
