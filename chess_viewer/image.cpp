@@ -18,11 +18,13 @@ void Image::show() {
 
 void Image::show(std::string s) {
     if (s == "warped") {
+
+        cv::Mat imgShow = _imgWarped.clone(); // deep copy !!!
         //cv::polylines(_imgWarped, _darkSquares, true, cv::Scalar(0, 255, 0), 3, cv::LINE_AA);
         for (cv::Point i : _midpoints) {
-            cv::circle(_imgWarped, i, 3, cv::Scalar(255, 0, 0), 4);
+            cv::circle(imgShow, i, 3, cv::Scalar(255, 0, 0), 4);
         };  
-        cv::circle(_imgWarped, _a1, 3, cv::Scalar(0, 0, 255), 4);
+        cv::circle(imgShow, _a1, 3, cv::Scalar(0, 0, 255), 4);
 
         int x1 = _a1.x-correction_x*_widthAvg/2;
         int x2 = _a1.x+correction_x*_widthAvg/2;
@@ -32,12 +34,12 @@ void Image::show(std::string s) {
 
         for (int i = 0; i<8; i++) {
             for (int j = 0; j<8; j++) {
-                cv::rectangle(_imgWarped, cv::Point(x1+j*_widthAvg*correction_x, y1-i*_heightAvg*correction_y), cv::Point(x2+j*_widthAvg*correction_x, y2-i*_heightAvg*correction_y), cv::Scalar(0, 0, 255), 3);
+                cv::rectangle(imgShow, cv::Point(x1+j*_widthAvg*correction_x, y1-i*_heightAvg*correction_y), cv::Point(x2+j*_widthAvg*correction_x, y2-i*_heightAvg*correction_y), cv::Scalar(0, 0, 255), 3);
             }
         }
         
 
-        cv::imshow("Chess Image Warped", _imgWarped);
+        cv::imshow("Chess Image Warped", imgShow);
         cv::waitKey(0);
         cv::destroyAllWindows();
     }
@@ -443,5 +445,8 @@ void Image::fillBoard(){
         for (int i = 0; i<board.fields.size(); i++){
             cv::imshow(std::to_string(board.fields[i].file), board.fields[i].imgCropped);
             cv::waitKey(0);
+            if (i % 8 == 0){
+                cv::destroyAllWindows();
+            }
         }
 }

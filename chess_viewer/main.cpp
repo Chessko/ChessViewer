@@ -14,11 +14,11 @@ using std::endl;
 int main() {
 
 std::vector<std::string> paths{
-       "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/chess_viewer/resources/chess_01.jpg",
-       "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/chess_viewer/resources/chess_02.jpg",
-       "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/chess_viewer/resources/chess_03.jpg",
-        "/Users/felixjeskoparies/C++/CapstoneProject/CppND-Capstone/opencv/chess_viewer/resources/chess_04.jpg"
-    };
+       "../resources/chess_01.jpg",
+       "../resources/chess_02.jpg",
+       "../resources/chess_03.jpg",
+       "../resources/chess_04.jpg"
+};
     
 for (std::string i : paths){
 
@@ -27,10 +27,9 @@ for (std::string i : paths){
     chess.warp();
     chess.findDarkSquares();
     chess.findA1();
-    chess.fillBoard();
-
     chess.show();
     chess.show("warped");
+    chess.fillBoard();
 }
 
     return 0;
