@@ -16,11 +16,11 @@ Here is where I am at currently. The app utilizes the OpenCV framework to
 * recognize all fields
 * outputs cropped images of each field 
 
-<img src="ChessImage_01.jpeg"/>
+<img src="ChessImage_01.png"/>
 
-<img src="ChessImage_02.jpeg"/>
+<img src="ChessImage_02.png"/>
 
-<img src="ChessImage_03.jpeg"/>
+<img src="ChessImage_03.png"/>
 
 Now the next steps are:
 * creating and training a proper CNN with a binary output: field empty or field not empty
